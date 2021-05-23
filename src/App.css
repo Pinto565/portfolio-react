@@ -45,7 +45,7 @@ body {
   background-color: #fff;
 }
 .container {
-  margin: 15rem 1rem;
+  margin: 18rem 1rem;
   color: #000;
   text-align: center;
   overflow-wrap: normal;
@@ -54,7 +54,7 @@ body {
 .container .home-content h1 {
   text-transform: uppercase;
   text-align: center;
-  font-size: 75px;
+  font-size: 85px;
   font-weight: lighter;
   padding: 0 2px;
   margin: 0px;
@@ -99,7 +99,7 @@ body {
   margin: 1rem;
   padding: 1rem;
   text-align: center;
-  width: 15rem;
+  width: 30rem;
 }
 .content p {
   color: #000;
