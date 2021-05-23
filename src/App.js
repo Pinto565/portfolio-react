@@ -17,7 +17,6 @@ function App() {
       <Route exact path="/projects" component={Projects} />
       <Route exact path="/roles" component={Roles} />
       <Route exact path="/contact" component={Contact} />
-      
     </div>
   );
 }
