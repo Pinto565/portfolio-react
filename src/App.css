@@ -1,0 +1,235 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+* {
+  font-family: "Montserrat";
+}
+body {
+  background-color: #fff;
+}
+.container {
+  margin: 15rem 1rem;
+  color: #000;
+  text-align: center;
+  overflow-wrap: normal;
+  padding: 5px;
+}
+.container .home-content h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 75px;
+  font-weight: lighter;
+  padding: 0 2px;
+  margin: 0px;
+}
+.container .home-content p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.social-icons {
+  color: #000;
+  font-size: 30px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.social-icons i {
+  padding: 0rem 1rem;
+}
+.social-icons a {
+  text-decoration: none;
+  color: #000;
+}
+
+.about-title {
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.content-box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.content {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  width: 15rem;
+}
+.content p {
+  color: #000;
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
+}
+
+.content i {
+  color: #000;
+  font-size: 4.5rem;
+  padding: 0.5rem 0;
+}
+.project-title {
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .project-content-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 7rem;
+  }
+
+  .project-content {
+    margin: 5rem 0rem;
+    padding: 1rem;
+    text-align: center;
+    width: 35rem;
+  }
+  .project-content h2 {
+    color: #000;
+    font-size: 6rem;
+    padding: 0.5rem 1rem;
+    margin: 10px;
+  }
+  .project-content p {
+    color: #000;
+    font-size: 0.85rem;
+    padding: 0.5rem 2rem;
+    text-transform: capitalize;
+    line-height: 1.75;
+  }
+  .roles-title {
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .roles-content-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+    
+  }
+  .roles-content {
+    margin: 2.85rem 0rem;
+    padding: 1rem;
+    text-align: center;
+    width: 35rem;
+  }
+  
+  .roles-content img {
+    color: #000;
+    width: 175px;
+    padding: 0.5rem 0;
+  }
+  .roles-post {
+    color: #000;
+    font-size: 1.5rem;
+    padding: 0.3rem 1rem;
+    text-transform: capitalize;
+    line-height: 1.5;
+  }
+  .roles-company {
+    color: #000;
+    font-size: 1rem;
+    padding: 0.1rem 2rem;
+    text-transform: capitalize;
+    line-height: 1;
+  }
+  .roles-time {
+    color: #000;
+    font-size: 1.2rem;
+    padding: 0.1rem 2rem;
+    text-transform: capitalize;
+    line-height: 1;
+  }
+  .contact-title {
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .contact-content-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10rem;
+    
+  }
+  .contact-content {
+    margin: 2.85rem 0rem;
+    padding: 1rem;
+    text-align: center;
+    width: 35rem;
+  }
+  
+  .contact-content i {
+    color: #000;
+    font-size: 4.5rem;
+    padding: 0.5rem 0;
+  }
+  .contact-content p {
+    color: #000;
+    font-size: 1rem;
+    padding: 0.3rem 1rem;
+    text-transform: lowercase;
+    line-height: 1.5;
+  }
+  .contact-content a{
+    text-decoration: none;
+    color: #000;
+  }
+ 
