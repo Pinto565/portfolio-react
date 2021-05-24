@@ -10,7 +10,7 @@ function contact() {
             <i className="far fa-envelope"></i>
             <p className="info">
               <a href="mailto:pintoinfant5650@gmail.com">
-                pintoinfant5650@gmail.com
+                pintoinfant5650@outlook.com
               </a>
             </p>
           </div>
