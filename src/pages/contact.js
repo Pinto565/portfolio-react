@@ -9,8 +9,8 @@ function contact() {
           <div className="contact-content">
             <i className="far fa-envelope"></i>
             <p className="info">
-              <a href="mailto:pintoinfant5650@outlook.com">
-                pintoinfant5650@outlook.com
+              <a href="mailto:pintoinfant5650@gmail.com">
+                pintoinfant5650@gmail.com
               </a>
             </p>
           </div>
