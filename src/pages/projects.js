@@ -20,6 +20,12 @@ function Projects() {
               sensor and raspberry pi
             </p>
           </div>
+          <div className="project-content">
+              <h2>03</h2>
+            <p>
+              A personal portfolio website made using HTML , CSS and Javascript
+            </p>
+          </div>
         </div>
       </div>
     </div>
