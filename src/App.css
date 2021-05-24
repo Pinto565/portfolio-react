@@ -123,11 +123,11 @@ body {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .project-content {
-  margin: 5rem 0rem;
+  margin: 4rem 0rem;
   padding: 1rem;
   text-align: center;
   width: 40rem;
