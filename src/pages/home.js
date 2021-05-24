@@ -7,7 +7,7 @@ function Home() {
         <div className="home-content">
           <h1>Pinto Infant</h1>
           <p>
-            <span className="typing-text"></span>
+            DevOps Engineer
           </p>
           <div className="social-icons">
             <a href="https://github.com/Pinto565">
