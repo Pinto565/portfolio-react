@@ -7,7 +7,7 @@ function Home() {
         <div className="home-content">
           <h1>Pinto Infant</h1>
           <p>
-            DevOps Engineer
+          Front-end web developer
           </p>
           <div className="social-icons">
             <a href="https://github.com/Pinto565">
