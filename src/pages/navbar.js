@@ -16,9 +16,6 @@ export default function NavBar(props) {
           <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <Link to="/roles">Roles</Link>
-        </li>
-        <li>
           <Link to="/contact">Contact</Link>
         </li>
       </div>
