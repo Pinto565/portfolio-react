@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "./logo-bulb.svg";
 
-function Home() {
+function roles() {
   return (
     <div>
       <div className="container-roles">
@@ -19,4 +19,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default roles;
