@@ -1,5 +1,5 @@
 import React from "react";
-import LightSpeed from "react-reveal/LightSpeed";
+import Fade from "react-reveal/Fade";
 
 function About() {
   return (
@@ -7,7 +7,7 @@ function About() {
       <div className="container-about">
         <p className="about-title">things i love the most</p>
         <div className="content-box">
-          <LightSpeed left>
+          <Fade>
             <div className="content">
               <i className="fab fa-html5"></i>
               <p>
@@ -15,8 +15,8 @@ function About() {
                 to be displayed in a web browser.
               </p>
             </div>
-          </LightSpeed>
-          <LightSpeed left>
+          </Fade>
+          <Fade>
             <div className="content">
               <i className="fab fa-css3-alt"></i>
               <p>
@@ -24,8 +24,8 @@ function About() {
                 describing the presentation of a document
               </p>
             </div>
-          </LightSpeed>
-          <LightSpeed left>
+          </Fade>
+          <Fade>
             <div className="content">
               <i className="fab fa-bootstrap"></i>
               <p>
@@ -33,8 +33,8 @@ function About() {
                 responsive, mobile-first front-end web development.
               </p>
             </div>
-          </LightSpeed>
-          <LightSpeed left>
+          </Fade>
+          <Fade>
             <div className="content">
               <i className="fas fa-database"></i>
               <p>
@@ -42,8 +42,8 @@ function About() {
                 (RDBMS). It organizes data into one or more data tables
               </p>
             </div>
-          </LightSpeed>
-          <LightSpeed left>
+          </Fade>
+          <Fade>
             <div className="content">
               <i className="fab fa-python"></i>
               <p>
@@ -51,8 +51,8 @@ function About() {
                 language.
               </p>
             </div>
-          </LightSpeed>
-          <LightSpeed left>
+          </Fade>
+          <Fade>
             <div className="content">
               <i className="fab fa-docker"></i>
               <p>
@@ -60,8 +60,8 @@ function About() {
                 virtualization to deliver software in packages called containers
               </p>
             </div>
-          </LightSpeed>
-          <LightSpeed left>
+          </Fade>
+          <Fade>
             <div className="content">
               <i className="fab fa-github"></i>
               <p>
@@ -69,7 +69,7 @@ function About() {
                 development and version control using Git.
               </p>
             </div>
-          </LightSpeed>
+          </Fade>
         </div>
       </div>
     </div>
