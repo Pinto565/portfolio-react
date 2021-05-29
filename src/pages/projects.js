@@ -1,5 +1,4 @@
 import React from "react";
-import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 
 function Projects() {
@@ -10,7 +9,7 @@ function Projects() {
           <p className="project-title">Projects</p>
         </Fade>
         <div className="project-content-box">
-          <Zoom top>
+          <Fade>
             <div className="project-content">
               <h2>01</h2>
               <p>
@@ -18,8 +17,8 @@ function Projects() {
                 software to manage the storage across the home
               </p>
             </div>
-          </Zoom>
-          <Zoom top>
+          </Fade>
+          <Fade>
             <div className="project-content">
               <h2>02</h2>
               <p>
@@ -27,13 +26,13 @@ function Projects() {
                 sensor and raspberry pi
               </p>
             </div>
-          </Zoom>
-          <Zoom bottom>
+          </Fade>
+          <Fade>
             <div className="project-content">
               <h2>03</h2>
               <p>A portfolio website made using HTML , CSS and Javascript</p>
             </div>
-          </Zoom>
+          </Fade>
         </div>
       </div>
     </div>

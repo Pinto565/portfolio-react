@@ -6,13 +6,13 @@ function Home() {
     <div>
       <div className="container">
         <div className="home-content">
-          <Fade top>
+          <Fade>
             <h1>Pinto Infant</h1>
           </Fade>
           <Fade>
             <p>Front-end web developer</p>
           </Fade>
-          <Fade bottom>
+          <Fade>
             <div className="social-icons">
               <a href="https://github.com/Pinto565">
                 <i className="fab fa-github"></i>
