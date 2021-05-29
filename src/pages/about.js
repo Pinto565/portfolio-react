@@ -5,7 +5,9 @@ function About() {
   return (
     <div>
       <div className="container-about">
-        <p className="about-title">things i love the most</p>
+        <Fade>
+          <p className="about-title">things i love the most</p>
+        </Fade>
         <div className="content-box">
           <Fade>
             <div className="content">

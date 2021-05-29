@@ -1,11 +1,14 @@
 import React from "react";
 import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 
 function Projects() {
   return (
     <div>
       <div className="container-project">
-        <p className="project-title">Projects</p>
+        <Fade>
+          <p className="project-title">Projects</p>
+        </Fade>
         <div className="project-content-box">
           <Zoom top>
             <div className="project-content">

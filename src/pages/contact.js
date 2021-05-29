@@ -1,11 +1,14 @@
 import React from "react";
 import Flip from "react-reveal/Flip";
+import Fade from "react-reveal/Fade";
 
 function contact() {
   return (
     <div>
       <div className="container-contact">
-        <p className="contact-title">contact</p>
+        <Fade>
+          <p className="contact-title">contact</p>
+        </Fade>
 
         <div className="contact-content-box">
           <Flip right>
