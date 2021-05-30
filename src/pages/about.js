@@ -4,12 +4,10 @@ import Fade from "react-reveal/Fade";
 function About() {
   return (
     <div>
-      <div className="container-about">
-        <Fade>
+      <Fade>
+        <div className="container-about">
           <p className="about-title">things i love the most</p>
-        </Fade>
-        <div className="content-box">
-          <Fade>
+          <div className="content-box">
             <div className="content">
               <i className="fab fa-html5"></i>
               <p>
@@ -17,8 +15,7 @@ function About() {
                 to be displayed in a web browser.
               </p>
             </div>
-          </Fade>
-          <Fade>
+
             <div className="content">
               <i className="fab fa-css3-alt"></i>
               <p>
@@ -26,8 +23,7 @@ function About() {
                 describing the presentation of a document
               </p>
             </div>
-          </Fade>
-          <Fade>
+
             <div className="content">
               <i className="fab fa-bootstrap"></i>
               <p>
@@ -35,8 +31,7 @@ function About() {
                 responsive, mobile-first front-end web development.
               </p>
             </div>
-          </Fade>
-          <Fade>
+
             <div className="content">
               <i className="fas fa-database"></i>
               <p>
@@ -44,8 +39,7 @@ function About() {
                 (RDBMS). It organizes data into one or more data tables
               </p>
             </div>
-          </Fade>
-          <Fade>
+
             <div className="content">
               <i className="fab fa-python"></i>
               <p>
@@ -53,8 +47,7 @@ function About() {
                 language.
               </p>
             </div>
-          </Fade>
-          <Fade>
+
             <div className="content">
               <i className="fab fa-docker"></i>
               <p>
@@ -62,8 +55,7 @@ function About() {
                 virtualization to deliver software in packages called containers
               </p>
             </div>
-          </Fade>
-          <Fade>
+
             <div className="content">
               <i className="fab fa-github"></i>
               <p>
@@ -71,9 +63,9 @@ function About() {
                 development and version control using Git.
               </p>
             </div>
-          </Fade>
+          </div>
         </div>
-      </div>
+      </Fade>
     </div>
   );
 }
