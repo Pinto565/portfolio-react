@@ -9,10 +9,10 @@ function Home() {
           <div className="home-content">
             <h1>Pinto Infant</h1>
             <div className="social-icons">
-              <a href="https://github.com/Pinto565">
+              <a href="https://github.com/Pinto565" target="_blank">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://www.linkedin.com/in/pinto-infant/">
+              <a href="https://www.linkedin.com/in/pinto-infant/" target="_blank">
                 <i className="fab fa-linkedin-in"></i>
               </a>
               <a href="mailto:pintoinfant5650@outlook.com">
