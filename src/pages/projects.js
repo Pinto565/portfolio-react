@@ -24,7 +24,7 @@ function Projects() {
             </div>
             <div className="project-content">
               <h2>03</h2>
-              <p>A portfolio website made using HTML , CSS and Javascript</p>
+              <p>A portfolio website made using HTML CSS and Javascript</p>
             </div>
           </div>
         </div>
