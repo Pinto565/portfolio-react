@@ -8,6 +8,7 @@ function Home() {
         <div className="container">
           <div className="home-content">
             <h1>Pinto Infant</h1>
+            <p>Web Developer</p>
             <div className="social-icons">
               <a href="https://github.com/Pinto565" target="_blank">
                 <i className="fab fa-github"></i>
