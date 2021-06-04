@@ -13,8 +13,17 @@ function Home() {
               <a href="https://github.com/Pinto565" target="_blank">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://www.linkedin.com/in/pinto-infant/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/pinto-infant/"
+                target="_blank"
+              >
                 <i className="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://api.whatsapp.com/send?phone=+918110908561"
+                target="_blank"
+              >
+                <i class="fab fa-whatsapp"></i>
               </a>
               <a href="mailto:pintoinfant5650@outlook.com">
                 <i className="far fa-envelope"></i>
