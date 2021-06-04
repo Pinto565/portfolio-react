@@ -63,6 +63,20 @@ function About() {
                 development and version control using Git.
               </p>
             </div>
+            <div className="content">
+              <i class="fab fa-js-square"></i>
+              <p>
+                JavaScript is a high-level programming language, often
+                just-in-time compiled, and multi-paradigm
+              </p>
+            </div>
+            <div className="content">
+              <i class="fab fa-react"></i>
+              <p>
+                React is an open-source front-end JavaScript library for
+                building user interfaces or UI components.
+              </p>
+            </div>
           </div>
         </div>
       </Fade>
