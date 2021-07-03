@@ -21,7 +21,7 @@ function contact() {
             <div className="contact-content">
               <i className="fas fa-phone"></i>
               <p className="info">
-                <a href="tel: +918110908561">+91 81109 08561</a>
+                <a href="tel: +916383078380">+91 63830 78380</a>
               </p>
             </div>
           </div>
