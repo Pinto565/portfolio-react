@@ -1,30 +1,29 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+}
 .menu {
   display: flex;
   flex-wrap: wrap;
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--white);
   text-transform: capitalize;
   justify-content: flex-end;
   margin: 1rem;
-  font-size: 17px;
+  font-size: 18px;
 }
 .menu li {
-  margin: 10px 8px;
+  margin: 20px 15px;
   list-style: none;
 }
 .menu a {
   text-decoration: none;
   padding: 8px;
-  color: var(--secondary-color);
+  color: var(--white);
 }
 .menu a:hover{
-  background: black;
-  color: white;
+  background: var(--white);
+  color: var(--black);
   padding: 8px;
   border-radius: 30px;
-}
-.menu img {
-  margin: 5px 20px;
-  width: 30px;
-  cursor: pointer;
 }

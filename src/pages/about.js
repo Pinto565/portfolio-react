@@ -6,7 +6,7 @@ function About() {
     <div>
       <Fade>
         <div className="container-about">
-          <p className="about-title">the tech i know</p>
+          <p className="about-title">tech i use</p>
           <div className="content-box">
             <div className="content">
               <i className="fab fa-html5"></i>

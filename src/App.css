@@ -1,51 +1,17 @@
-.App {
-  text-align: center;
+:root {
+  --black: #000000;
+  --white: #ffffff;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 * {
   font-family: "Montserrat";
 }
 body {
-  background-color: #fff;
+  background-color: var(--black);
 }
 .container {
-  margin: 18rem 1rem;
-  color: #000;
+  display: block;
+  margin: 15% auto;
+  color: var(--white);
   text-align: center;
   overflow-wrap: normal;
   padding: 5px;
@@ -61,13 +27,14 @@ body {
 .container .home-content p {
   text-align: center;
   text-transform: capitalize;
+  font-weight: lighter;
   font-size: 30px;
   margin-top: 5px;
   margin-bottom: 0px;
 }
 .social-icons {
-  color: #000;
-  font-size: 30px;
+  color: var(--white);
+  font-size: 32px;
   margin-top: 15px;
   display: flex;
   justify-content: center;
@@ -77,11 +44,11 @@ body {
 }
 .social-icons a {
   text-decoration: none;
-  color: #000;
+  color: var(--white);
 }
 
 .about-title {
-  color: #000;
+  color: var(--white);
   text-transform: uppercase;
   margin-top: 2.5rem;
   font-size: 2.5rem;
@@ -101,18 +68,18 @@ body {
   width: 30rem;
 }
 .content p {
-  color: #000;
+  color: var(--white);
   font-size: 0.85rem;
   padding: 0.5rem 1rem;
 }
 
 .content i {
-  color: #000;
+  color: var(--white);
   font-size: 4.5rem;
   padding: 0.5rem 0;
 }
 .project-title {
-  color: #000;
+  color: var(--white);
   text-transform: uppercase;
   margin-top: 2.5rem;
   font-size: 2.5rem;
@@ -133,20 +100,20 @@ body {
   width: 40rem;
 }
 .project-content h2 {
-  color: #000;
+  color: var(--white);
   font-size: 6rem;
   padding: 0.5rem 1rem;
   margin: 10px;
 }
 .project-content p {
-  color: #000;
+  color: var(--white);
   font-size: 0.85rem;
   padding: 0.5rem 2rem;
   text-transform: capitalize;
   line-height: 1.75;
 }
 .roles-title {
-  color: #000;
+  color: var(--white);
   text-transform: uppercase;
   margin-top: 2.5rem;
   font-size: 2.5rem;
@@ -167,33 +134,33 @@ body {
 }
 
 .roles-content img {
-  color: #000;
+  color: var(--white);
   width: 175px;
   padding: 0.5rem 0;
 }
 .roles-post {
-  color: #000;
+  color: var(--white);
   font-size: 1.5rem;
   padding: 0.3rem 1rem;
   text-transform: capitalize;
   line-height: 1.5;
 }
 .roles-company {
-  color: #000;
+  color: var(--white);
   font-size: 1rem;
   padding: 0.1rem 2rem;
   text-transform: capitalize;
   line-height: 1;
 }
 .roles-time {
-  color: #000;
+  color: var(--white);
   font-size: 1.2rem;
   padding: 0.1rem 2rem;
   text-transform: capitalize;
   line-height: 1;
 }
 .contact-title {
-  color: #000;
+  color: var(--white);
   text-transform: uppercase;
   margin-top: 2.5rem;
   font-size: 2.5rem;
@@ -214,12 +181,12 @@ body {
 }
 
 .contact-content i {
-  color: #000;
+  color: var(--white);
   font-size: 4.5rem;
   padding: 0.5rem 0;
 }
 .contact-content p {
-  color: #000;
+  color: var(--white);
   font-size: 1rem;
   padding: 0.3rem 1rem;
   text-transform: lowercase;
@@ -227,5 +194,5 @@ body {
 }
 .contact-content a {
   text-decoration: none;
-  color: #000;
+  color: var(--white);
 }

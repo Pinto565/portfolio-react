@@ -1,5 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import Typical from 'react-typical';
 
 function Home() {
   return (
@@ -8,7 +9,22 @@ function Home() {
         <div className="container">
           <div className="home-content">
             <h1>Pinto Infant</h1>
-            <p>Front-End Web Developer</p>
+            <p>
+            <Typical
+                steps={[
+                  "front-end web developer",
+                  3000,
+                  "devOps engineer",
+                  3000,
+                  "electronics engineer",
+                  3000,
+                  "tech enthusiast",
+                  3000
+                ]}
+                loop={Infinity}
+                wrapper="p"
+              />
+            </p>
             <div className="social-icons">
               <a href="https://github.com/Pinto565" target="_blank">
                 <i className="fab fa-github"></i>
