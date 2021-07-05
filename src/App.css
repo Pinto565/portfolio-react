@@ -90,11 +90,11 @@ body {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 1.5rem;
+  margin-top: 20px;
 }
 
 .project-content {
-  margin: 3.5rem 0rem;
+  margin: 1rem;
   padding: 1rem;
   text-align: center;
   width: 40rem;
@@ -177,7 +177,7 @@ body {
   margin: 2.85rem 0rem;
   padding: 1rem;
   text-align: center;
-  width: 35rem;
+  width: 30rem;
 }
 
 .contact-content i {
