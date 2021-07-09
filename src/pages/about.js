@@ -8,73 +8,58 @@ function About() {
         <div className="container-about">
           <p className="about-title">tech i use</p>
           <div className="content-box">
-            <div className="content">
-              <i className="fab fa-html5"></i>
+          <div className="content">
+            <img src="https://img.icons8.com/ios-filled/100/ffffff/python.png"/>
               <p>
-                The HTML is the standard markup language for documents designed
-                to be displayed in a web browser.
-              </p>
-            </div>
-
-            <div className="content">
-              <i className="fab fa-css3-alt"></i>
-              <p>
-                Cascading Style Sheets (CSS) is a style sheet language used for
-                describing the presentation of a document
-              </p>
-            </div>
-
-            <div className="content">
-              <i className="fab fa-bootstrap"></i>
-              <p>
-                Bootstrap is a free and open-source CSS framework directed at
-                responsive, mobile-first front-end web development.
-              </p>
-            </div>
-
-            <div className="content">
-              <i className="fas fa-database"></i>
-              <p>
-                MySQL is an open-source relational database management system
-                (RDBMS). It organizes data into one or more data tables
-              </p>
-            </div>
-
-            <div className="content">
-              <i className="fab fa-python"></i>
-              <p>
-                Python is an interpreted high-level general-purpose programming
-                language.
-              </p>
-            </div>
-
-            <div className="content">
-              <i className="fab fa-docker"></i>
-              <p>
-                Docker is a platform as a service (PaaS) products that use
-                virtualization to deliver software in packages called containers
-              </p>
-            </div>
-
-            <div className="content">
-              <i className="fab fa-github"></i>
-              <p>
-                GitHub, Inc. is a provider of Internet hosting for software
-                development and version control using Git.
+                PYTHON
               </p>
             </div>
             <div className="content">
-              <i class="fab fa-js-square"></i>
+            <img src="https://img.icons8.com/material-outlined/100/ffffff/github.png"/>
               <p>
-                JavaScript is a high-level programming language, often
-                just-in-time compiled, and multi-paradigm
+                GITHUB
               </p>
             </div>
             <div className="content">
-              <i class="fab fa-react"></i>
+            <img src="https://img.icons8.com/ios-filled/100/ffffff/mysql-logo.png"/>
               <p>
-                React is an open-source front-end JavaScript library for
-                building user interfaces or UI components.
+                MYSQL
+              </p>
+            </div>
+            <div className="content">
+            <img src="https://img.icons8.com/ios-filled/100/ffffff/docker.png"/>
+              <p>
+                DOCKER
+              </p>
+            </div>
+            <div className="content">
+            <img src="https://img.icons8.com/ios/100/ffffff/kubernetes.png"/>
+              <p>
+                KUBERNETES
+              </p>
+            </div>
+            <div className="content">
+            <img src="https://img.icons8.com/ios-filled/100/ffffff/html-5--v1.png"/>
+              <p>
+                HTML
+              </p>
+            </div>
+            <div className="content">
+            <img src="https://img.icons8.com/ios-glyphs/100/ffffff/css3.png"/>
+              <p>
+                CSS
+              </p>
+            </div>
+            <div className="content">
+            <img src="https://img.icons8.com/ios-filled/100/ffffff/javascript.png"/>
+              <p>
+                JAVASCRIPT
+              </p>
+            </div>
+            <div className="content">
+            <img src="https://img.icons8.com/ios/100/ffffff/react-native--v1.png"/>
+              <p>
+                REACT JS
               </p>
             </div>
           </div>
