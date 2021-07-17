@@ -3,7 +3,7 @@
   --white: #ffffff;
 }
 * {
-  font-family: "Montserrat";
+  font-family: "Ubuntu";
 }
 body {
   background-color: var(--black);
