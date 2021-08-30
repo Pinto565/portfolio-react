@@ -35,7 +35,7 @@ function Home() {
               >
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a href="https://wa.me/918110908561?text=Hello" target="_blank">
+              {/* <a href="https://wa.me/918110908561?text=Hello" target="_blank">
                 <i class="fab fa-whatsapp"></i>
               </a>
               <a href="https://t.me/pinto_infant" target="_blank">
@@ -43,7 +43,7 @@ function Home() {
               </a>
               <a href="mailto:pintoinfant5650@outlook.com">
                 <i className="far fa-envelope"></i>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
