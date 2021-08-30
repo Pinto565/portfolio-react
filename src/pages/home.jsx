@@ -1,6 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import Typical from 'react-typical';
+import Typical from "react-typical";
 
 function Home() {
   return (
@@ -10,16 +10,16 @@ function Home() {
           <div className="home-content">
             <h1>Pinto Infant</h1>
             <p>
-            <Typical
+              <Typical
                 steps={[
-                  "front-end web developer",
+                  "back-end developer",
                   3000,
                   "devOps engineer",
                   3000,
                   "electronics engineer",
                   3000,
                   "tech enthusiast",
-                  3000
+                  3000,
                 ]}
                 loop={Infinity}
                 wrapper="p"
@@ -35,11 +35,11 @@ function Home() {
               >
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a
-                href="https://api.whatsapp.com/send?phone=+918110908561"
-                target="_blank"
-              >
+              <a href="http://wa.me/918110908561?text=Hello" target="_blank">
                 <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="https://t.me/pinto_infant" target="_blank">
+                <i class="fab fa-telegram-plane"></i>
               </a>
               <a href="mailto:pintoinfant5650@outlook.com">
                 <i className="far fa-envelope"></i>
