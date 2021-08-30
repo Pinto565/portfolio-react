@@ -24,7 +24,15 @@ function Projects() {
             </div>
             <div className="project-content">
               <h2>03</h2>
-              <p>A portfolio website made using HTML CSS and Javascript</p>
+              <p>A portfolio website made using HTML CSS and ReactJS</p>
+            </div>
+            <div className="project-content">
+              <h2>04</h2>
+              <p>TPB torrent search bot using python packages</p>
+            </div>
+            <div className="project-content">
+              <h2>05</h2>
+              <p>a dev.to bot that scrapes article from it's website and send to your telegram</p>
             </div>
           </div>
         </div>

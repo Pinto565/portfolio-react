@@ -1,8 +1,7 @@
-import react from "react";
 import { Link } from "react-router-dom";
-import "./navbar.css";
+import "../App.css";
 
-export default function NavBar(props) {
+export default function NavBar() {
   return (
     <div>
       <div className="menu">
@@ -19,7 +18,6 @@ export default function NavBar(props) {
           <Link to="/contact">Contact</Link>
         </li>
       </div>
-      {props.children}
     </div>
   );
 }
