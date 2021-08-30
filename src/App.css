@@ -2,11 +2,9 @@
   --black: #000000;
   --white: #ffffff;
 }
-* {
-  font-family: "Ubuntu";
-}
 body {
   background-color: var(--black);
+  font-family: "Ubuntu", "Montserrat";
 }
 .container {
   display: block;
