@@ -35,7 +35,7 @@ function Home() {
               >
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a href="http://wa.me/918110908561?text=Hello" target="_blank">
+              <a href="https://wa.me/918110908561?text=Hello" target="_blank">
                 <i class="fab fa-whatsapp"></i>
               </a>
               <a href="https://t.me/pinto_infant" target="_blank">
