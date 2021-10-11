@@ -41,8 +41,8 @@ function About() {
               <p>JAVASCRIPT</p>
             </div>
             <div className="content">
-              <img src="https://img.icons8.com/ios/100/ffffff/react-native--v1.png" />
-              <p>REACT JS</p>
+              <img src="https://img.icons8.com/windows/100/ffffff/nodejs.png" />
+              <p>NODE JS</p>
             </div>
             <div className="content">
               <img src="https://img.icons8.com/ios-filled/100/ffffff/git.png" />
