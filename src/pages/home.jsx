@@ -12,9 +12,7 @@ function Home() {
             <p>
               <Typical
                 steps={[
-                  "back-end developer",
-                  3000,
-                  "devOps engineer",
+                  "fullstack developer",
                   3000,
                   "electronics engineer",
                   3000,
