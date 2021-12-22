@@ -14,6 +14,8 @@ function Home() {
                 steps={[
                   "fullstack developer",
                   3000,
+                  "DevOps engineer",
+                  3000,
                   "electronics engineer",
                   3000,
                   "tech enthusiast",

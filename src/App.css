@@ -6,6 +6,13 @@ body {
   background-color: var(--black);
   font-family: "Ubuntu", "Montserrat";
 }
+.App::-webkit-scrollbar {
+  display: none;
+}
+.App {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
 .container {
   display: block;
   margin: 15% auto;
@@ -63,7 +70,7 @@ body {
   margin: 1rem;
   padding: 1rem;
   text-align: center;
-  width: 12rem;
+  width: 15rem;
 }
 .content p {
   color: var(--white);
