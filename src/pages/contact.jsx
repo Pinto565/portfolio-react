@@ -1,33 +1,40 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+import { Link } from "react-router-dom";
 
 function contact() {
   return (
-    <div>
-      <Fade>
-        <div className="container-contact">
-          <p className="contact-title">contact</p>
-
-          <div className="contact-content-box">
-            <div className="contact-content">
-              <i className="far fa-envelope"></i>
-              <p className="info">
-                <a href="mailto:pintoinfant5650@gmail.com">
-                  pintoinfant5650@gmail.com
-                </a>
+    <div className="min-vh-100 d-flex justify-content-center align-items-center">
+      <div>
+        <div>
+          <div>
+            <h1 className="display-5 text-center">Contact Me...!</h1>
+          </div>
+          <hr />
+          <div className="d-flex justify-content-around text-white fs-4 mx-3">
+            <p>
+              Reach me on <a href="https://t.me/pinto_infant"
+                className="text-white text-decoration-underline"
+                target="_blank"
+              >Telegram</a>{" "} or {" "}
+              <a>
+                <a href="mailto:pintoinfantvalan@gmail.com"
+                  className="text-white text-decoration-underline"
+                  target="_blank"
+                >Email</a>
+              </a>
+            </p>
+          </div>
+          <hr />
+          <div className="d-flex justify-content-center">
+            <Link to="/">
+              <p className="badge bg-white text-black fs-6">
+                Home
               </p>
-            </div>
-
-            <div className="contact-content">
-              <i className="fas fa-phone"></i>
-              <p className="info">
-                <a href="tel: +918110908561">+91 81109 08561</a>
-              </p>
-            </div>
+            </Link>
           </div>
         </div>
-      </Fade>
-    </div>
+      </div>
+    </div >
   );
 }
 
