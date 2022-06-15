@@ -1,8 +1,8 @@
-import "./pages/styles/App.css"
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
+import "../src/pages/styles/App.css"
+import Home from "../src/pages/Home";
+import About from "../src/pages/About";
+import Projects from "../src/pages/Projects";
+import Contact from "../src/pages/Contact";
 import { Route } from "react-router-dom";
 
 function App() {
