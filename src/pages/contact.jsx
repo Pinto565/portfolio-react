@@ -27,23 +27,6 @@ function contact() {
           </div>
         </div>
       </div >
-      <div className="min-vh-100 d-flex justify-content-center align-items-center">
-        <div className="row">
-          <div className="col">
-            <div className="d-flex justify-content-center align-items-center mh-100">
-              <h1 className="display-3 fw-bold text-center">
-                Get in Touch...!
-              </h1>
-            </div>
-          </div>
-          {/* <div className="vr"></div> */}
-          <div className="col d-flex flex-column">
-            <p className="fs-5 fw-light text-center">Want to Reach Me... Mail me at <a href="mailto:pintoinfantvalan@gmail.com"><span className="badge bg-white text-black">pintoinfantvalan@gmail.com</span></a></p>
-            <hr />
-            <p className="fs-5 fw-light text-center">Message me on Telegram<br /><a href="https://t.me/pinto_infant"><span className="badge bg-white text-black">@pinto_infant</span></a></p>
-          </div>
-        </div>
-      </div>
     </>
   );
 }
