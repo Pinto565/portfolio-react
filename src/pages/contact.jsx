@@ -3,38 +3,48 @@ import { Link } from "react-router-dom";
 
 function contact() {
   return (
-    <div className="min-vh-100 d-flex justify-content-center align-items-center">
-      <div>
-        <div>
+    <>
+      <div className="min-vh-100 d-flex justify-content-center align-items-center">
+        <div className="w-50">
           <div>
-            <h1 className="display-5 text-center">Contact Me...!</h1>
+            <div>
+              <h1 className="display-2 text-center fw-bold">Get in Touch...!</h1>
+            </div>
+            <hr />
+            <div className="mt-3 d-flex flex-column">
+              <p className="fs-5 fw-light text-center my-2">Want to Reach Me... Mail me at<br /> <a href="mailto:pintoinfantvalan@gmail.com"><span className="badge bg-white text-black">pintoinfantvalan@gmail.com</span></a></p>
+              <p className="fs-4 fw-bold text-center my-1">Or...</p>
+              <p className="fs-5 fw-light text-center my-2">Message me on Telegram<br /><a href="https://t.me/pinto_infant"><span className="badge bg-white text-black">@pinto_infant</span></a></p>
+            </div>
+            <hr />
+            <div className="d-flex justify-content-center">
+              <Link to="/">
+                <p className="badge bg-white text-black fs-6">
+                  Home
+                </p>
+              </Link>
+            </div>
           </div>
-          <hr />
-          <div className="d-flex justify-content-around text-white fs-4 mx-3">
-            <p>
-              Reach me on <a href="https://t.me/pinto_infant"
-                className="text-white text-decoration-underline"
-                target="_blank"
-              >Telegram</a>{" "} or {" "}
-              <a>
-                <a href="mailto:pintoinfantvalan@gmail.com"
-                  className="text-white text-decoration-underline"
-                  target="_blank"
-                >Email</a>
-              </a>
-            </p>
+        </div>
+      </div >
+      <div className="min-vh-100 d-flex justify-content-center align-items-center">
+        <div className="row">
+          <div className="col">
+            <div className="d-flex justify-content-center align-items-center mh-100">
+              <h1 className="display-3 fw-bold text-center">
+                Get in Touch...!
+              </h1>
+            </div>
           </div>
-          <hr />
-          <div className="d-flex justify-content-center">
-            <Link to="/">
-              <p className="badge bg-white text-black fs-6">
-                Home
-              </p>
-            </Link>
+          {/* <div className="vr"></div> */}
+          <div className="col d-flex flex-column">
+            <p className="fs-5 fw-light text-center">Want to Reach Me... Mail me at <a href="mailto:pintoinfantvalan@gmail.com"><span className="badge bg-white text-black">pintoinfantvalan@gmail.com</span></a></p>
+            <hr />
+            <p className="fs-5 fw-light text-center">Message me on Telegram<br /><a href="https://t.me/pinto_infant"><span className="badge bg-white text-black">@pinto_infant</span></a></p>
           </div>
         </div>
       </div>
-    </div >
+    </>
   );
 }
 
