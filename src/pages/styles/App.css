@@ -1,5 +1,5 @@
 body {
-  font-family: "Ubuntu", "Montserrat";
+  font-family: "Fira Code", "Ubuntu", "Montserrat";
 }
 .App::-webkit-scrollbar {
   display: none;

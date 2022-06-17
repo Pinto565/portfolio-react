@@ -12,9 +12,9 @@ function contact() {
             </div>
             <hr />
             <div className="mt-3 d-flex flex-column">
-              <p className="fs-5 fw-light text-center my-2">Want to Reach Me... Mail me at<br /> <a href="mailto:pintoinfantvalan@gmail.com"><span className="badge bg-white text-black">pintoinfantvalan@gmail.com</span></a></p>
+              <p className="fs-5 fw-light text-center my-2"><span className="fw-bold">Want to Reach Me...<br /> </span>Mail me at<br /> <a href="mailto:pintoinfantvalan@gmail.com"><span className="badge bg-white text-black">pintoinfantvalan@gmail.com</span></a></p>
               <p className="fs-4 fw-bold text-center my-1">Or...</p>
-              <p className="fs-5 fw-light text-center my-2">Message me on Telegram<br /><a href="https://t.me/pinto_infant"><span className="badge bg-white text-black">@pinto_infant</span></a></p>
+              <p className="fs-5 fw-light text-center my-2">Contact me on Telegram<br /><a href="https://t.me/pinto_infant"><span className="badge bg-white text-black">@pinto_infant</span></a></p>
             </div>
             <hr />
             <div className="d-flex justify-content-center">
