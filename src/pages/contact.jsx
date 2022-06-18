@@ -12,7 +12,7 @@ function contact() {
             </div>
             <hr />
             <div className="mt-3 d-flex flex-column">
-              <p className="fs-5 fw-light text-center my-2"><span className="fw-bold">Want to Reach Me...</span><br />Mail me at<br /> <a href="mailto:pintoinfantvalan@gmail.com"><span className="badge bg-white text-black text-wrap">pintoinfantvalan<br />@<br />gmail.com</span></a></p>
+              <p className="fs-5 fw-light text-center my-2"><span className="fw-bold">Want to Reach Me...</span><br />Mail me at<br /> <a href="mailto:hello@pintoinfant.xyz"><span className="badge bg-white text-black text-wrap">hello<br />@<br />pintoinfant.xyz</span></a></p>
               <p className="fs-4 fw-bold text-center my-1">Or...</p>
               <p className="fs-5 fw-light text-center my-2">Contact me on Telegram<br /><a href="https://t.me/pinto_infant"><span className="badge bg-white text-black">@pinto_infant</span></a></p>
             </div>
